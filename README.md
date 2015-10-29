@@ -1,2 +1,5 @@
-# recruitr
-A chrome extension to scrape candidate profiles and add them to a Google spreadsheet
+Recruitment Helper Chrome Extension
+===
+
+Get data from a LinkedIn, Xing, StackOverflow page and insert formatted
+data into a spreadsheet. 
