@@ -28,10 +28,22 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
+
+
+    <script src="client.js"></script>
+    <script src="driveApi.js"></script>
     <script src="popup.js"></script>
   </head>
   <body>
     <div id="status"></div>
+    <div id="authorize-div" style="display: none">
+      <span>Authorize access to Drive API</span>
+      <!--Button for the user to click to initiate auth sequence -->
+      <button id="authorize-button" onclick="handleAuthClick(event)">
+        Authorize
+      </button>
+    </div>
+    <pre id="output"></pre>
     <img id="image-result" hidden>
   </body>
 </html>
